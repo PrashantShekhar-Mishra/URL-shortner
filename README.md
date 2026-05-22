@@ -129,7 +129,7 @@ Redirects to original URL.
 
 ---
 
-# 🗄️ Database Schema
+# Database Schema
 
 ## Table: short_urls
 
@@ -160,7 +160,7 @@ Frequently accessed URLs are cached in Redis to reduce database load and improve
 
 ---
 
-# 🐳 Running Locally
+# Running Locally
 
 ## Prerequisites
 
@@ -194,7 +194,7 @@ mvn spring-boot:run
 
 ---
 
-# 📖 Swagger API Documentation
+# Swagger API Documentation
 
 Open:
 
@@ -204,7 +204,7 @@ http://localhost:8080/swagger-ui/index.html
 
 ---
 
-# 🐋 Docker Setup
+# Docker Setup
 
 ## docker-compose.yml
 
