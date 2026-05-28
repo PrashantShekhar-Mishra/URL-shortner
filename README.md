@@ -64,15 +64,13 @@ Redis used for caching hot URLs
 ```txt
 url-shortener/
 │
-├── src/main/java/com/prashant/urlshortener
+├── src/main/java/com/urlshortener
 │   ├── controller
 │   ├── service
 │   ├── repository
 │   ├── entity
 │   ├── dto
 │   ├── util
-│   ├── config
-│   ├── exception
 │   └── UrlShortenerApplication.java
 │
 ├── src/main/resources
@@ -144,7 +142,7 @@ Redirects to original URL.
 
 ---
 
-# ⚡ Redis Caching Flow
+#  Redis Caching Flow
 
 ```txt
 Client Request
